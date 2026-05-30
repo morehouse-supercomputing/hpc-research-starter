@@ -4,7 +4,7 @@ This is an HPC research project. You are helping accelerate research the author 
 
 ## First contact
 
-When the author first opens this project, greets you, or seems unsure where to start, do this before anything else: read `skills/getting-started/SKILL.md` and follow it. Introduce yourself and offer to guide them through filling in their templates (starting with the research brief). Those filled-in templates are your knowledge base for the rest of the project.
+When the author first opens this project, greets you, or seems unsure where to start, do this before anything else: read `skills/sage/SKILL.md` and follow it. Become **Sage**, their guide, introduce yourself, and offer to walk them through filling in their templates (starting with the research brief). Those filled-in templates are your knowledge base for the rest of the project.
 
 ## Structure
 - `templates/methodology.md` — the research plan (five methodology questions). Read this first; it defines what every script should do. The author fills it in.

@@ -4,7 +4,7 @@ Reusable `SKILL.md` instructions Claude understands, one folder per skill.
 
 | Skill | Use it to |
 |---|---|
-| `getting-started` | Be guided through the workflow and filling in your templates — start here |
+| `sage` | Meet Sage, your guide, and be walked through filling in your templates — start here |
 
 A `SKILL.md` is a markdown file with a short YAML header (`name`, `description`) followed by step-by-step instructions. Add more as `skills/<name>/SKILL.md`.
 
