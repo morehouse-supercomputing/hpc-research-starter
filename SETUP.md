@@ -10,10 +10,19 @@ Three steps to get going, plus how to keep your copy up to date all week. Howeve
 
 ## Step 1: Make your own copy
 
-This keeps your work in your own account.
+You need your own copy so you can save your work. Either way below, **your copy is yours and the original stays safe** (no one can edit my repo unless I add them as a collaborator). The only difference is whether your copy stays linked to mine:
 
-1. On this repo's GitHub page, click **Use this template → Create a new repository** (or **Fork** if you do not see that button).
-2. Optional, if you want help during the workshop: your repo → **Settings → Collaborators → add `ashleyscruse`**. Your work stays yours; this just lets me look when you are stuck.
+| | **Fork** | **Use this template** |
+|---|---|---|
+| What it makes | Your own copy, **linked** to the original | Your own copy, **independent** (clean start) |
+| Can you edit my repo? | No | No |
+| Pull my updates during the week? | **Yes, one click** | Not automatically (you would connect it by hand) |
+| Best for | **This workshop** | A standalone project later |
+
+**For this week, choose Fork.** You will be able to pull any updates I push during the workshop with one click.
+
+1. On the repo page, click **Fork** (top right) → **Create fork**. This makes your copy at `your-username/hpc-research-starter`.
+2. Optional, if you want help during the workshop: your fork → **Settings → Collaborators → add `ashleyscruse`**. Your work stays yours; this just lets me look when you are stuck.
 
 ## Step 2: Get it onto your computer
 
@@ -44,7 +53,7 @@ First, let GitHub know it is you. You only do this once, and it is the same on W
 
 That stores your login so clone, push, and pull just work. (Alternatives: set up an SSH key, or use a Personal Access Token as your password when git asks.)
 
-Then copy your repo onto your computer:
+Then copy your repo onto your computer. Use **your own fork's** URL (your username), not mine:
 ```
 git clone https://github.com/YOUR-USERNAME/hpc-research-starter.git
 cd hpc-research-starter
