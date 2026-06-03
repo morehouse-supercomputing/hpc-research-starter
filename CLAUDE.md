@@ -9,7 +9,7 @@ When the author first opens this project, greets you, or seems unsure where to s
 ## Structure
 - `templates/methodology.md` — the research plan (five methodology questions). Read this first; it defines what every script should do. The author fills it in.
 - `templates/` — blank workshop templates the author fills in across the week (research brief, methodology, analysis, peer review, submission plan, compute log, metrics reference). When asked, read the relevant filled-in template before drafting.
-- `skills/` — reusable `SKILL.md` instructions, one per task (empty for now). When the author names a skill or asks for a task one covers, read the matching `skills/<name>/SKILL.md` and follow it.
+- `skills/` — reusable `SKILL.md` instructions, one per task: `sage` (setup guide) and `tacc-vista` (writing Slurm job scripts for Vista). When the author names a skill or asks for a task one covers, read the matching `skills/<name>/SKILL.md` and follow it.
 - `data/raw/` — original data (not in Git)
 - `data/processed/` — cleaned, analysis-ready data (not in Git)
 - `scripts/` — `download_data.py`, `build_dataset.py`, `train_model.py`, `evaluate.py`
@@ -28,4 +28,4 @@ When the author first opens this project, greets you, or seems unsure where to s
 ## How to help
 - When asked to build the pipeline, follow `templates/methodology.md` exactly.
 - Verify any citations or factual claims; do not invent references.
-- When a step needs HPC, write or edit a Slurm script in `jobs/` rather than running it locally.
+- When a step needs HPC, write or edit a Slurm script in `jobs/` rather than running it locally. Follow the `tacc-vista` skill (`skills/tacc-vista/SKILL.md`) when writing or debugging those scripts.
